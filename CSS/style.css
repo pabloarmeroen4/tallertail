@@ -1,0 +1,151 @@
+body{
+    background-image: url("https://image.freepik.com/vector-gratis/lineas-geometricas-abstractas-patrones-fisuras_144290-8.jpg");
+}
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family:Cascadia Code;
+}
+
+#container{
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    min-height: 600px;
+    border-radius:15px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 120px;
+    border-radius: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+    flex-grow: 1;
+    flex-basis:70%;
+     padding: 10px;
+     margin-left: 20px;
+     text-shadow: 1px 1px 0px #ccc;
+     text-transform: uppercase;
+}
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
+}
+#menu{
+    flex-grow: 1;
+    height: 100%;
+    padding-right:20px;
+    border-radius:15px;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+    border-radius: 15px;
+}
+#menu li{
+    background-color:rgb(238, 238, 238);
+    border-radius:15px;
+}
+#menu a{
+    text-transform: uppercase;
+    color: #444;
+    padding:15px;
+    border-radius:150px;
+}
+#menu a:hover{
+    background: #ccc;
+   color: rgb(1, 134, 134);
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 80%;
+}
+.project{
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+.project img{
+    width: 100%;
+}
+.project-info{
+    padding: 10px;
+}
+.project-info a{
+    font-size: 16px;
+    color: black;
+}
+
+.project-info a:hover{
+    color: green;
+}
+#aside{
+    border-radius:15px;
+    flex-basis: 15%;
+    margin-right: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#aside ul{
+    list-style: none;
+    border-radius:15px;
+}
+#aside li{
+    padding-bottom:20px;
+    border-radius:15px;
+}
+#aside a{
+    display: block;
+    padding: 20px;
+    background: #eeeeee;
+    color: #444;
+    text-align: center;
+    transition: all 300ms;
+    border-radius:15px;
+    background-color: #444;
+    color: white;
+}
+#footer{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: flex-start;
+    height: 120px;
+    align-items: center;
+    border: 1px solid rgba(225,225,256, 0.8);
+}
+
+     
+
+
